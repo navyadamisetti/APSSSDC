@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+}
+
+#sideul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+#sideli {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#sideli.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#side1:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  background-color: #D3D3D3;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.footer-block { margin: 10px 0; }
+
+#footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
